@@ -1,0 +1,98 @@
+.menu_ {
+  width: 200px;
+  margin: 40px auto;
+  font-family: Helvetica, Helvetica, Arial, Helvetica, sans-serif;
+}
+.menu_ img {
+  width: 22px;
+  height: 22px;
+  font-size: 16px;
+}
+.menu_ button {
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+}
+.menu_ button:hover {
+  color: #ee4d2d;
+}
+.menu_header {
+  position: relative;
+  padding: 5px;
+  margin-bottom: 40px;
+}
+.menu_header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.menu_header span {
+  position: absolute;
+  top: 5px;
+  left: 40%;
+  font-weight: bolder;
+}
+.menu_header button {
+  opacity: 0.6;
+  position: absolute;
+  left: 37%;
+  bottom: 13px;
+  cursor: pointer;
+}
+.menu_promotion {
+  position: relative;
+  margin: 0 0 20px;
+  display: flex;
+}
+
+.menu_promotion button {
+  position: absolute;
+  top: 0;
+  left: 26px;
+}
+.menu_comment button,
+.menu_orders button,
+.menu_mypage button,
+.menu_voucher button {
+  position: absolute;
+  top: 2px;
+  left: 39px;
+}
+.menu_voucher {
+  position: relative;
+  margin: 0 0 15px;
+}
+
+.menu_mypage {
+  position: relative;
+  margin: 0 0 15px;
+}
+.menu_mypage_list {
+  text-align: left;
+  margin-left: 45px;
+  display: none;
+  cursor: pointer;
+}
+.menu_mypage_list p,
+.menu_comment_list p {
+  margin: 10px 0;
+}
+.menu_orders {
+  position: relative;
+  margin: 0 0 15px;
+}
+.menu_comment {
+  position: relative;
+  margin: 0 0 15px;
+}
+.menu_comment_list {
+  text-align: left;
+  margin-left: 45px;
+  display: none;
+  cursor: pointer;
+}
+.menu_comment_list p:hover,
+.menu_mypage_list p:hover {
+  color: #ee4d2d;
+}

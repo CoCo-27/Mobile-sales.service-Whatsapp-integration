@@ -1,0 +1,217 @@
+.voucher_ {
+  width: 100%;
+  min-height: 750px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 3px;
+  position: relative;
+  box-sizing: border-box;
+}
+.voucher_header_text {
+  font-size: 25px;
+  position: absolute;
+  top: 30px;
+  left: 58px;
+}
+.voucher_header_button {
+  position: absolute;
+  right: 55px;
+  top: 35px;
+}
+.voucher_button1 {
+  border: none;
+  background-color: transparent;
+  border-right: 1px solid rgb(207, 196, 196);
+  color: #ee4d2d;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px 0 0;
+  padding-right: 10px;
+}
+.voucher_button2 {
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  color: #ee4d2d;
+  background-color: transparent;
+  border-right: 1px solid rgb(207, 196, 196);
+  margin: 0 10px 0 0;
+  padding-right: 10px;
+}
+.voucher_button3 {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  opacity: 0.7;
+  font-size: 16px;
+}
+.voucher_header_seach {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+}
+.voucher_header_seach {
+  width: 90%;
+  height: 100px;
+  background-color: #f7f7f7;
+  position: relative;
+  left: 5%;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.voucher_header_seach input {
+  padding: 8px;
+  height: 50%;
+  width: 60%;
+  margin: 0 10px;
+}
+.voucher_header_seach_button1 {
+  padding: 9px 20px;
+  border: 1px solid rgb(227, 224, 224);
+  border-radius: 3px;
+}
+
+.voucher_conter {
+  position: relative;
+}
+.voucher_conter_button_grup {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  width: 90%;
+  border-bottom: 1px solid rgb(164, 157, 157);
+}
+.voucher_conter_button_grup button {
+  border: none;
+  background-color: transparent;
+  width: 20%;
+  font-size: 17px;
+  opacity: 0.8;
+  padding: 10px 0;
+}
+.voucher_conter_button_grup button:focus {
+  border-bottom: 2px solid #ee4d2d;
+}
+.voucher_comment {
+  width: 90%;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+/* ALL VOUCHER */
+
+.allvoucher_ {
+  width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.allvoucher_conter_div {
+  position: relative;
+  width: 100%;
+  margin: 5px 0;
+}
+.allvoucher_conter_div:hover {
+  background-color: #f7f7f7;
+}
+.allvoucher_conter_div img {
+  width: 100px;
+}
+.allvoucher_conter_div p {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  margin: 0;
+  width: 400px;
+}
+.allvoucher_conter_div span {
+  position: absolute;
+  top: 30px;
+  width: 500px;
+  left: 150px;
+}
+.allvoucher_conter_div div {
+  position: absolute;
+  top: 70px;
+  width: 300px;
+  left: 150px;
+}
+
+.allvoucher_conter_div button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background-color: #ee4d2d;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 3px;
+}
+/* DICH VU */
+.dichvu_ {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  min-height: 300px;
+}
+.dichvu_ img {
+  width: 150px;
+}
+.dichvu_ p {
+  margin: 0;
+}
+.dichvu_ button {
+  border: none;
+  background-color: #ee4d2d;
+  color: #f7f7f7;
+  padding: 12px 18px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+/* SHOPEE */
+.shopee_modal {
+  width: 500px;
+  height: 120px;
+  border-radius: 3px;
+  border: 1px solid rgb(222, 216, 216);
+  border-left: 5px solid #fff;
+  display: flex;
+}
+.shopee_modal_imager {
+  background-color: #00bfa5;
+  border-left: 10px dotted #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  box-sizing: content-box;
+  width: 30%;
+}
+.shopee_modal_text {
+  position: relative;
+  padding: 0 0 0 10px;
+  width: 65%;
+}
+.now {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 12px;
+  color: #ee4d2d;
+}
+.dieuKien {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  color: #05a;
+}
+.voucher_comment_dichVu,
+.voucher_comment_doiTac,
+.voucher_comment_scan,
+.voucher_comment_shopee {
+  display: none;
+}

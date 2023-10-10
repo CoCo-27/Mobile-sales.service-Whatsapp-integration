@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.full-advertisement {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 235px;
+}
+
+.advertisement-slider {
+  display: flex;
+  height: 100%;
+}
+
+.slideExtra {
+  margin-left: 100px;
+  height: 100%;
+}
+
+.container-slider {
+  display: flex;
+  position: relative;
+  width: 2445px;
+  height: 230px;
+  padding-top: 30px;
+  border-radius: 3px;
+  overflow: hidden;
+  border-bottom: 1px solid rgb(242, 242, 242);
+}
+@media screen and (max-width: 800px) {
+  .container-slider {
+    margin: 100px 10px 0;
+  }
+}
+.slide {
+  cursor: pointer;
+  min-height: 230px;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity ease-in-out 0.5s;
+  border-right: 1px solid rgb(236, 236, 236);
+}
+
+.container-slider:hover .btn-slide {
+  display: block;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+.active-anim {
+  opacity: 1;
+}
+
+.btn-slide {
+  width: 40px;
+  background: black;
+  opacity: 0.3;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: none;
+}
+
+.btn-slide img {
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+  opacity: 1;
+}
+
+.prev {
+  border-radius: 0px 3px 3px 0px;
+  top: 50%;
+  width: 30px;
+  height: 70px;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.next {
+  border-radius: 3px 0px 0px 3px;
+  top: 50%;
+  width: 30px;
+  height: 70px;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.prev:hover {
+  opacity: 0.5;
+}
+.next:hover {
+  opacity: 0.5;
+}
+
+.container-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.dot {
+  margin-left: 8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 1;
+  border: 1px solid hsla(0, 0%, 53.7%, 0.4);
+  background-color: hsla(0, 0%, 100%, 0.4);
+}
+.dot.active {
+  background: red;
+}
+
+/* container-slider-extra */
+
+.container-slider-extra {
+  position: relative;
+  padding-top: 30px;
+  padding-left: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  width: 100%;
+}
+
+.full-slider-extra {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Slider-Extra-img {
+  margin-bottom: 5px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+@media screen and (max-width: 350px) {
+  .Slider-Extra-img {
+    margin: 10px 10px 0;
+  }
+}
+
+.active-animExtra {
+  opacity: 1;
+}

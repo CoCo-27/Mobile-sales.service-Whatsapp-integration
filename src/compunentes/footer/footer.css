@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* icon */
+[class^="iconlogo-"],
+[class*="iconlogo-"] {
+  background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/DMX/Global/Desktop/Logo-webmoi.png?v=3);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 24px;
+  width: 80px;
+  line-height: 30px;
+  vertical-align: middle;
+  background-size: 250px 200px;
+}
+
+[class^="icon__"],
+[class*="icon__"] {
+  background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/homev2/desk/icon_common@2x.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  background-size: 300px 200px;
+}
+
+a {
+  color: #288ad6;
+}
+
+.main-footer {
+  width: 100%;
+  min-width: 1024px;
+  margin: 0 auto;
+  background: #fff;
+  overflow: hidden;
+  clear: both;
+  border-top: 1px solid #e2e2e2;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.footer-menu {
+  padding: 15px 0 5px;
+  margin: auto;
+  max-width: 1200px;
+  min-width: 980px;
+  position: relative;
+}
+
+.footer__col {
+  float: left;
+  width: 24%;
+}
+
+.footer__col:nth-child(3) {
+  width: 23%;
+}
+
+.footer__col:nth-child(4) {
+  width: 29%;
+}
+
+.footer-listMenu {
+  cursor: pointer;
+  list-style: none;
+  line-height: 21px;
+  padding: 0;
+}
+
+.footer-listMenu ul {
+  padding: 0;
+}
+
+.footer-listMenu li {
+  margin-bottom: 10px;
+}
+
+.footer-listMenu-phone {
+  list-style: none;
+  line-height: 21px;
+  padding: 0;
+}
+
+.footer-listMenu-phone li {
+  margin-bottom: 10px;
+}
+
+.footer-listMenu-phone span {
+  cursor: pointer;
+}
+
+.footer-listMenu li:hover {
+  color: #288ad6;
+}
+
+.footer-listMenu-txt-phone {
+  color: #288ad6;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.f-social {
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-social a {
+  color: #2f80ed;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.f-certify {
+  margin-bottom: 20px;
+}
+
+.link-fb,
+.link-youtube {
+  font-weight: 500;
+}
+
+.fb-icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.youtube-icon {
+  color: red;
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.f-certify a {
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.icon__congthuong {
+  background-position: -200px -30px;
+  height: 24px;
+  width: 79px;
+}
+
+.icon__khieunai {
+  background-position: -250px 0;
+  height: 25px;
+  width: 25px;
+}
+
+.icon__protected {
+  background-position: -80px -60px;
+  height: 24px;
+  width: 122px;
+}
+
+.f-certify a {
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.img-ncsc img {
+  width: 102px;
+}
+
+.footer__logo {
+  background-color: #fff;
+}
+
+.footer__logo-hd {
+  color: #222;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.footer__logo-list {
+  width: 102%;
+  font-size: 0;
+  margin-top: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__logo-list li {
+  float: left;
+  width: 80px;
+  margin: 0 8px 8px 0;
+}
+
+.footer__logo-list li a {
+  display: block;
+}
+
+.iconlogo-dienmayxanh {
+  background-position: -85px 0;
+}
+
+.iconlogo-bachhoaxanh {
+  background-position: -170px 0;
+}
+
+.iconlogo-topzone {
+  background-position: 0 -58px;
+}
+
+.iconlogo-cycle {
+  background-position: -85px -58px;
+}
+
+.iconlogo-sport {
+  background-position: 0 -29px;
+}
+
+.iconlogo-kids {
+  background-position: -170px -29px;
+}
+
+.iconlogo-fashion {
+  background-position: -85px -29px;
+}
+
+.iconlogo-ji {
+  background-position: -170px -58px;
+}
+
+.iconlogo-tantam {
+  background-position: -170px -90px;
+}
+
+.iconlogo-ankhang {
+  background-position: -85px -90px;
+}
+
+.iconlogo-4kfarm {
+  background-position: 0 -90px;
+}
+
+.iconlogo-vieclam {
+  background-position: 0 -120px;
+}
+
+/* copyright */
+
+.copyright {
+  background-color: #f1f1f1;
+  padding: 15px 0;
+  margin: auto;
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.copyright p {
+  color: #666;
+  font-size: 12px;
+}
+
+.copyright section {
+  max-width: 1200px;
+  width: 100%;
+  min-width: 980px;
+  margin: auto;
+}
+
+.copyright section a {
+  margin-left: 3px;
+}

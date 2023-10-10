@@ -1,0 +1,255 @@
+.home {
+  width: 100%;
+  background-color: #fff;
+}
+
+/* chat */
+.home_status_container-chat {
+  margin-right: 20px;
+  width: 90px;
+  right: 0px;
+  bottom: 100px;
+  padding-left: 3px;
+  padding-right: 3px;
+  box-shadow: 1px -2px 5px rgb(233 127 2 / 40%);
+  position: fixed;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid white;
+  border: 1px solid rgb(251, 251, 251);
+}
+
+#unread-msg-number {
+  position: absolute;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  top: -60px;
+  right: 10px;
+  border-radius: 37px;
+  min-width: 7px;
+  margin-top: -5px;
+  margin-left: -4px;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 19px;
+  float: right;
+  color: #fff;
+  background-color: #e97f02 !important;
+  border-color: #e3e3e3 !important;
+  border: 2px solid white;
+  box-shadow: 6px 6px 7px rgba(19, 17, 14, 0.4);
+}
+
+.WechatOutlined {
+  font-size: 40px;
+}
+
+/* HOME */
+.home-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*product - list*/
+
+.home-page-product {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.box-checkbox {
+  display: flex;
+  align-items: center;
+  border-left: 1px dashed #219653;
+  border-bottom: 1px dashed #219653;
+  padding: 10px;
+}
+
+.box-checkbox .product-item-flash {
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.box-checkbox .total-product {
+  font-weight: 600;
+  font-size: 15px;
+  width: 110px;
+  margin: 0;
+}
+
+.product-item-flash {
+  background: #e1f2e8;
+  padding: 4px 7px 5px 5px;
+  border-radius: 4px;
+  color: #219653;
+  text-align: center;
+}
+
+.product-item-flash .item-flash-icon {
+  color: #219653;
+}
+
+.box-filter-ul {
+  display: flex;
+}
+
+.box-filter-item {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.box-filter-ul-li-icon {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.box-filter-ul-li {
+  margin-right: 8px;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* logo */
+
+.home-container-list-logo {
+  margin-bottom: 8px;
+}
+.box-list-logo-ul {
+  display: inline-flex;
+  vertical-align: middle;
+  height: 20px;
+  margin-right: 5px;
+  list-style: none;
+}
+
+.list-logo {
+  /* align-items: center; */
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  color: #333;
+  display: flex;
+  font-size: 14px;
+  line-height: 13px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  min-height: 36px;
+  max-height: 36px;
+  padding: 6px 13px;
+  vertical-align: top;
+  align-items: center;
+  justify-content: center;
+  width: 19%;
+}
+
+.list-logo:hover {
+  border: 1px solid rgb(71, 71, 242);
+}
+.list-logo-a img {
+  width: 92px;
+}
+
+/* home-page */
+
+.box-sort {
+  margin-top: 10px;
+  display: flex;
+}
+.box-sort a {
+  margin-left: 25px;
+  color: black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-sort a:hover {
+  color: black;
+}
+
+.box-checkbox {
+  display: flex;
+}
+
+.thunder-icon img {
+  width: 10px;
+  margin-right: 3px;
+}
+
+.thunder-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-checkbox-flash {
+  background: #e1f2e8;
+  padding: 4px 8px 5px 5px;
+  border-radius: 4px;
+  color: #219653 !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.checkbox-icon {
+  margin-right: 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+}
+
+.box-select {
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 6px 10px 6px 8px;
+  border: none;
+}
+
+.div-box-select select {
+  border-width: 0;
+  outline: 0;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 12px;
+}
+
+.div-box-select {
+  float: right;
+  margin-bottom: 10px;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-width: 0;
+  outline: 0;
+}

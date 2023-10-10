@@ -1,0 +1,29 @@
+.seeMore {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.seeMore-button:hover {
+  background-color: #288ad6;
+  color: #fff;
+  border: 1px solid #288ad6;
+}
+
+.seeMore-button {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  border-radius: 4px;
+  margin: 10px auto;
+  width: 340px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+}

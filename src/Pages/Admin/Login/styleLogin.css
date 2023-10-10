@@ -1,0 +1,133 @@
+.Login {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(135deg, #8a24e3 0%, #725cef 100%);
+  position: relative;
+}
+
+.formLogin {
+  max-width: 410px;
+  padding: 35px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 60px 0 rgb(29 29 31 / 9%);
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title_lo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title_logo {
+  margin-bottom: 30px;
+  width: 80px;
+  height: 80px;
+}
+
+.title_user,
+.title_pass {
+  color: #888ea8;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+.Email {
+  margin-bottom: 24px;
+  padding: 3px;
+  width: 100%;
+  outline: unset;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+}
+
+.password {
+  margin-bottom: 24px;
+  padding: 3px;
+  width: 92%;
+  outline: unset;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+}
+
+.eye_hiden {
+  display: inline-block;
+  color: #888ea8;
+  font-size: 19px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.eye_show {
+  display: none;
+  color: #888ea8;
+  font-size: 19px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.notte {
+  color: red;
+  font-size: 18px;
+}
+
+.btnLogin {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px 24px;
+  margin: 24px 0;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: #fe9a8b;
+}
+
+.btnLogin:hover {
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 30%);
+}
+
+.logo-info {
+  width: 100% !important;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #fff !important;
+}
+
+.logo_fb {
+  font-size: 33px;
+  cursor: pointer;
+  color: #725cef;
+}
+
+.logo_fb:hover,
+.logo_google:hover,
+.logo_twitter:hover {
+  color: #fe9a8b;
+}
+
+.logo_google {
+  font-size: 33px;
+  margin-left: 27px;
+  cursor: pointer;
+  color: #725cef;
+}
+
+.logo_twitter {
+  font-size: 33px;
+  cursor: pointer;
+  margin-left: 27px;
+  color: #725cef;
+}

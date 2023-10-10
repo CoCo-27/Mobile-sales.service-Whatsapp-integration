@@ -1,0 +1,132 @@
+/* CAPNHAT */
+.capnhat_ {
+  width: 100%;
+  min-height: 500px;
+  background-color: #ffffff;
+  position: relative;
+}
+.capnhat_ img {
+  width: 150px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.capnhat_ span {
+  position: absolute;
+  top: 60%;
+  left: 38%;
+}
+/* KHUYENMAI */
+.khuyenmai_header {
+  width: 100%;
+  height: 40px;
+  background-color: #ffffff;
+  position: relative;
+}
+.khuyenmai_header button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 10px;
+  top: 30%;
+  font-size: 16px;
+  cursor: pointer;
+}
+.khuyenmai_conter {
+  width: 100%;
+  min-height: 600px;
+  background-color: #fff2ee;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.khuyenmai_conter img {
+  width: 100px;
+}
+.khuyenmai_conter_div {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+.khuyenmai_conter_div:hover {
+  background-color: #eaeaea;
+}
+.khuyenmai_conter_div p {
+  position: absolute;
+  top: 0px;
+  left: 120px;
+  margin: 0;
+  font-size: 18px;
+}
+.khuyenmai_conter_div span {
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  font-size: 15px;
+}
+.khuyenmai_conter_div div {
+  position: absolute;
+  top: 60px;
+  left: 120px;
+  font-size: 15px;
+}
+.khuyenmai_conter_div button {
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  border: 1px solid rgb(198, 188, 188);
+  background-color: #fff;
+  padding: 6px 8px;
+  border-radius: 4px;
+}
+.vi_,
+.hoatdong_ {
+  width: 100%;
+  min-height: 500px;
+  background-color: #ffffff;
+  position: relative;
+}
+.vi_ img {
+  width: 150px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.vi_ span {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+} /* HOAT DONG */
+.hoatdong_ {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 500px;
+  background-color: #ffffff;
+}
+.hoatdong_header {
+  height: 50px;
+  border-bottom: 1px solid rgb(229, 223, 223);
+  position: relative;
+}
+.hoatdong_header span {
+  position: absolute;
+  right: 10px;
+  top: 30%;
+  opacity: 0.6;
+}
+.hoatdong_header div {
+  position: absolute;
+  top: 30%;
+  left: 10px;
+}
+.hoatdong_conter img {
+  width: 150px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.hoatdong_conter span {
+  width: 150px;
+  position: absolute;
+  top: 60%;
+  left: 41%;
+}

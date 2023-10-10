@@ -1,0 +1,43 @@
+
+.table_xacnhan {
+  width: 83%;
+  height: 100vh;
+  background-color: #e9ecef;
+  float: right;
+  padding: 20px 30px;
+  margin-top: 60px;
+}
+
+.title_xacnhan {
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.3s;
+  text-align: unset;
+}
+.ant-table-tbody {
+  display: 1;
+}
+.ant-table-row {
+  display: table;
+  width: 100%;
+}
+.ant-table-thead {
+  width: 100%;
+
+}
+.ant-table-tbody > tr > td {
+  border-bottom: 1px dashed #aea8a8;
+  transition: background 0.3s;
+  text-align: unset;
+  padding: 0;
+}
+.ant-table-thead > tr > th {
+  padding: 2px 15px;
+}
+.anticon  {
+  font-size:  23px;
+}

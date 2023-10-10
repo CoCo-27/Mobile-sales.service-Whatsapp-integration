@@ -1,0 +1,211 @@
+* {
+  /* border: 1px solid gray; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  margin-top: 0;
+}
+
+/* body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+} */
+
+.container {
+  background-color: #f5f5f5;
+  display: flex;
+}
+
+.product-detail-wrap {
+  padding-top: 24px;
+  display: flex;
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  align-items: top;
+  cursor: default;
+}
+
+.image-wrap {
+  width: 50%;
+}
+
+.image-primary {
+}
+.image-primary img {
+  width: 100%;
+}
+
+.range-img {
+  display: flex;
+  padding: 12px 0 24px 0;
+  overflow: hidden;
+}
+.range-img img {
+  width: 20%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+
+.content-right-wrap {
+  padding-top: 12px;
+  min-width: 320px;
+}
+
+.title-wrap {
+}
+.title-wrap h1 {
+  text-align: center;
+}
+
+.icon {
+}
+
+.evaluate-wrap {
+  display: flex;
+}
+
+.star-evaluate {
+}
+
+.number-comment {
+}
+
+.sold {
+}
+
+.price-wrap {
+  display: flex;
+}
+
+.price {
+}
+
+.discount {
+}
+
+.product-color-wrap {
+  display: flex;
+}
+
+.product-color-tittle {
+}
+
+.product-color-wrap-child-color {
+}
+
+.product-color {
+}
+
+.product-color {
+}
+
+.product-color {
+}
+
+.count-buy-wrap {
+  display: flex;
+}
+
+.count-buy-wrap-title {
+}
+
+.plus-subtract {
+  display: flex;
+}
+
+.plus {
+}
+
+.number-plus-subtract {
+}
+
+.subtract {
+}
+
+.available-product {
+}
+
+.add-to-cart-wrap {
+  display: flex;
+}
+
+.add-to-cart {
+}
+
+.buy-now {
+}
+.onButton {
+  background-color: orange;
+  color: white;
+}
+#products-ram {
+  margin: 4px;
+  border: none;
+  padding: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+#products-rom {
+  margin: 4px;
+  border: none;
+  padding: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+#products-color {
+  margin: 4px;
+  border: none;
+  padding: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.sold {
+  color: gray;
+  font-weight: 400;
+}
+.button-choose-quatity-product {
+  padding: 0px 12px;
+  border: none;
+  border-radius: 2px;
+}
+.button-choose-quatity-product:hover {
+  cursor: pointer;
+  background-color: #ffa500;
+  color: white;
+}
+.number-plus-subtract {
+  padding: 0px 12px;
+  font-weight: 500;
+  color: rgb(38, 36, 36);
+}
+.available-product {
+  margin-left: 16px;
+}
+.subtract {
+  margin-left: 4px;
+}
+.price h1 {
+  margin: 0;
+}
+.button-add-cart {
+  margin-top: 16px;
+  padding: 12px 28px;
+  cursor: pointer;
+  font-weight: 500;
+  color: rgb(26, 25, 25);
+  border: none;
+  border-radius: 2px;
+  font-size: 1.5rem;
+}
+.button-add-cart:hover {
+  cursor: pointer;
+  background-color: #ffa500;
+  color: white;
+}
+.buy-now {
+  margin-left: 8px;
+}

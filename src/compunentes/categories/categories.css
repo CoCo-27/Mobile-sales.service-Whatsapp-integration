@@ -1,0 +1,29 @@
+.categories {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: auto;
+}
+
+.categories-div {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.categories-img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 20px;
+  padding: 6px 15px;
+  width: 93%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.categories-img:hover {
+  border: 1px solid #2f80ed;
+}

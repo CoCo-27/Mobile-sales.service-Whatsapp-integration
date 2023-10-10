@@ -1,0 +1,129 @@
+
+  
+  .content {
+    width: 83%;
+    height: 100%;
+    background-color: #e9ecef;
+    float: right;
+    padding: 0 30px;
+    margin-top: 60px;
+  }
+  
+  .content_title {
+    color: #1f212d;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.4992px;
+    line-height: 24px;
+    margin: 35px 0;
+    text-align: left;
+  }
+  
+  .statistical {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .table {
+    width: 259px !important;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: #7e8eb1 0px 1px 2px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .content_sale {
+    border-top: none !important;
+  }
+  
+  .icon_sale {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: #fbccdd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .icon_title {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: right;
+    margin-bottom: 0;
+  }
+  
+  .thongso {
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .icon_order {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: #dccff7;
+    color: #805dca;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .icon_customer {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: #b6fff1;
+    color: #1abc9c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .icon_Income {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: #ffeccb;
+    color: #e9b02b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .calendar {
+    margin-top: 50px;
+    width: 50%;
+    box-shadow: #7e8eb1 0px 1px 2px 0px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .react-Calendar {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .productNew {
+    margin-top: 50px;
+    width: 100%;
+    box-shadow: #7e8eb1 0px 1px 2px 0px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  
+  .Note {
+    margin-bottom: 50px;
+  }

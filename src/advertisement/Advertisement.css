@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Advertisement {
+  display: none;
+}
+
+.Advertisement-container {
+  margin: auto;
+  max-width: 1200px;
+  position: relative;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  clear: both;
+  border-top: 0;
+  background: #008847;
+}
+
+.container-product {
+  background-color: #f1f1f1;
+  border: 6px solid #008847;
+  border-top: 0;
+  background: #008847;
+}
+
+.text img {
+  width: auto;
+}
+
+._voucher {
+  background: #fefcea;
+  padding: 5px 10px 38px 10px;
+  max-width: 190px;
+  position: relative;
+  margin: 5px 0 5px 5px;
+  border-radius: 3px;
+}
+
+._voucher-title {
+  color: #3b864d;
+  font-weight: 600;
+  width: 190px;
+}
+
+._voucher-content {
+  margin-bottom: 5px;
+}
+
+._voucher-content input {
+  padding: 7px 20px;
+  border-radius: 4px;
+  border: 1px solid #008848;
+  width: 100%;
+  margin-top: 9px;
+  clear: both;
+  box-sizing: border-box;
+  height: 34px;
+  text-indent: initial;
+  padding-left: 15px;
+  outline: 0;
+}
+
+._voucher-content button {
+  width: 100%;
+  height: 34px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  background: #bdbdbd;
+  color: #fff;
+  margin-top: 9px;
+  cursor: pointer;
+}
+
+._voucher-note {
+  color: #afafaf;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 5px;
+}
+
+.container-product .title-close {
+  padding-top: 10px;
+  position: absolute;
+  margin: auto;
+  right: 36px;
+  cursor: pointer;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(0, -50%);
+  font-size: 12px;
+  color: #fff;
+  font-weight: normal;
+}
+
+.container-product .title-close {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.container-product .title-close .showtext {
+  margin-right: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.container-product .title-close img {
+  position: absolute;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  top: 10px;
+  right: -30px;
+}
+
+.title-close a {
+  text-decoration: none;
+}
+
+.title-BHX {
+  display: block;
+  color: #fff;
+  position: relative;
+  font-size: 16px;
+  background: #008847;
+  padding: 10px 170px 10px 35px;
+}
+
+.dotnew {
+  background-color: #ffe66b;
+  border-radius: 100%;
+  display: block;
+  left: 10px;
+  height: 8px;
+  margin-top: -5px;
+  position: absolute;
+  top: 50%;
+  width: 8px;
+  animation: radite;
+}
+
+.dotnew .animation {
+  border: 0.1px solid #ffe66b;
+  background-color: rgba(255, 230, 107, 0.2);
+  border-radius: 100%;
+  display: block;
+  height: 8px;
+  opacity: 1;
+  animation: radite 1s ease-out infinite;
+  width: 8px;
+}
+
+@keyframes radite {
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+.text-freeShip::before {
+  content: "•";
+  margin: 0 5px;
+}
+
+.text-freeShip {
+  color: #fff200;
+}
+
+.note {
+  font-style: italic;
+  font-size: 12px;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.voucherproduct-bhx {
+  display: flex;
+  background-color: #008847;
+}
+
+._voucher {
+  background: #fefcea;
+  padding: 5px 5px 38px 10px;
+  max-width: 190px;
+  position: relative;
+  margin: 5px 0 5px 5px;
+  border-radius: 3px;
+}
+
+._product {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+._product-stage {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.stage-container {
+  display: flex;
+  transform: translate3d(0px, 0px, 0px);
+  transition: all 0s ease 0s;
+  width: 988px;
+}
+
+.stage-all-item {
+  width: 197.6px;
+}
+
+.stage-item {
+  position: relative;
+  text-align: center;
+  width: 195px;
+  height: 316px;
+}
+
+.stage-item a {
+  padding: 5px;
+  position: relative;
+  display: block;
+  height: 100%;
+}
+
+.stage-item a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}

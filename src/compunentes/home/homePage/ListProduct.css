@@ -1,0 +1,297 @@
+.Product-list {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  width: 100%;
+  min-width: 980px;
+}
+
+.installment {
+  top: 10px;
+  position: absolute;
+  background-color: #f3f3f3;
+  font-size: 12px;
+  border-radius: 2px;
+  font-size: 11px;
+  line-height: 12px;
+  display: inline-block;
+  margin-right: 4px;
+  padding: 3px;
+}
+
+.image_box {
+  margin-top: 25px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.item_image-box {
+  margin: 10px 0px;
+}
+
+.image-monopoly {
+  position: absolute;
+  width: 45px;
+  bottom: 20px;
+  left: 0px;
+  transition-delay: 0.1s;
+  font-size: 12px;
+  transition-duration: 0.5s;
+}
+
+.image-warranty {
+  position: absolute;
+  width: 45px;
+  bottom: 20px;
+  left: 0;
+  transition-delay: 0.1s;
+  font-size: 12px;
+  transition-duration: 0.5s;
+}
+
+.image_box-image {
+  position: relative;
+  margin-bottom: 30px;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+  transition-delay: 0.1s;
+  font-size: 12px;
+  transition-duration: 0.5s;
+}
+
+.cards:hover .image_box-image {
+  margin-top: 0;
+  padding-bottom: 10px;
+  font-size: 12px;
+  transition-duration: 0.5s;
+}
+.image_box:hover .image-monopoly {
+  margin-top: 0;
+  padding-bottom: 10px;
+  font-size: 12px;
+  transition-duration: 0.5s;
+}
+
+.image_box:hover .image-warranty {
+  margin-top: 0;
+  padding-bottom: 10px;
+  font-size: 12px;
+  transition-duration: 0.5s;
+}
+
+.image_box:hover .ProductName {
+  color: blue;
+}
+
+.cards-container {
+  border: 1px ridge #f3f3f3;
+}
+
+.cards {
+  background-color: #fff;
+  padding: 10px 15px 20px;
+  overflow: hidden;
+  height: 528px;
+  cursor: pointer;
+  position: relative;
+}
+
+.cards-info p {
+  font-size: 14px;
+}
+
+.cards p {
+  margin-bottom: 0;
+}
+
+.đ {
+  position: relative;
+  font-size: 13px;
+  top: -4px;
+  left: -3px;
+}
+
+.cards:hover {
+  -webkit-box-shadow: 0 2px 12px rgb(0 0 0 / 12%);
+  -moz-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+.ProductName {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.cards:hover .ProductName {
+  color: rgb(25, 143, 240);
+}
+
+.details p {
+  margin: 0;
+}
+
+.details-ram {
+  text-align: center;
+  display: flex;
+  font-size: 13px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.details-ram .ram1 {
+  border: 1px solid rgb(107, 107, 235);
+}
+
+.details-ram span {
+  border: 1px solid #e9e7e7;
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+
+.details-ram span:hover {
+  border: 1px solid rgb(136, 136, 236);
+  cursor: pointer;
+}
+
+.dramaticReduction {
+  max-height: 25px;
+  position: absolute;
+  top: 280px;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 11px;
+  background: linear-gradient(to right, #faab08, #d42611);
+  color: #fff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-size: 10px;
+  font-weight: 500;
+  padding-right: 15px;
+}
+
+.dramaticReduction-icon {
+  width: 20px;
+}
+
+.VNPayIcon {
+  margin-top: 10px;
+  top: 280px;
+  position: absolute;
+  text-align: center;
+  border-radius: 10px;
+  width: 118px;
+  font-size: 11px;
+  background-image: linear-gradient(#33bce6, #1161f5);
+  color: #fff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-size: 10px;
+  font-weight: 500;
+  padding-right: 15px;
+}
+
+.VNPayIcon-icon {
+  width: 20px;
+}
+
+.details .price {
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  width: 0;
+}
+
+.price {
+  font-size: 13px;
+  text-decoration-line: line-through;
+}
+
+.NewSale {
+  font-size: 13px;
+}
+
+.NewPrice {
+  font-weight: bold;
+}
+
+.details .compare {
+  color: rgb(78, 168, 233);
+  font-weight: 500;
+  width: 35%;
+}
+
+/* Rate */
+.anticon-star {
+  font-size: 13px;
+}
+
+.ant-rate:hover {
+  color: rgb(250, 131, 19);
+}
+
+.ant-rate-star-full,
+.ant-rate {
+  color: rgb(250, 131, 19);
+}
+.rate-icon {
+  margin: 0;
+  float: left;
+}
+
+/* oder */
+.details .oder {
+  background-color: #e91e63;
+  border-radius: 4px;
+  color: #fff;
+  display: -webkit-inline-box;
+  font-size: 11px;
+  margin-right: 4px;
+  padding: 0 5px;
+  white-space: nowrap;
+  max-width: 90%;
+  margin-bottom: 5px;
+}
+
+.productType::before {
+  content: "●";
+  margin-right: 4px;
+  margin-bottom: 2px;
+  margin-top: -1px;
+  color: #333;
+  font-size: 10px;
+}
+
+.cameraProduct::before {
+  content: "●";
+  margin-right: 4px;
+  margin-bottom: 2px;
+  margin-top: -1px;
+  color: #333;
+  font-size: 10px;
+}
+
+.design::before {
+  content: "●";
+  margin-right: 4px;
+  margin-bottom: 2px;
+  margin-top: -1px;
+  color: #333;
+  font-size: 10px;
+}
+
+.panel::before {
+  content: "●";
+  margin-right: 4px;
+  margin-bottom: 2px;
+  margin-top: -1px;
+  color: #333;
+  font-size: 10px;
+}

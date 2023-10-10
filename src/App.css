@@ -1,0 +1,61 @@
+/* *,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+@font-face {
+  font-family: myFont;
+  src: url(https://www.myfonts.com/fonts/linotype/neue-helvetica/);
+}
+.wrap-modify {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+#tfootadd {
+  background-color: rgb(96, 215, 136);
+}
+#tfootconfirm {
+  background-color: rgb(214, 182, 68)
+}
+#tfootadd_button {
+  width: 100%;
+  border: none;
+  background-color: rgb(96, 215, 136);
+  cursor: pointer;
+}
+#tfootthanhtoan {
+  background-color: rgb(68, 126, 214)
+}
+.image-product {
+  width: 50px;
+}
+.sale-product {
+  color: red;
+}
+
+
+
+
+.imgChild {
+  width: 60px;
+}
+
+/* ============== */
+ /* css bài axios của duy */
+ .wrapAxiosDuy {
+   display: flex;
+   flex-direction: column;
+   padding: 20px 100px;
+ }
+ /* -------------------- */
+ .myStyle {
+   color: #fff;
+   font-weight: bold;
+   background-color: #EE4D2D !important;
+   box-shadow: none !important;
+ }

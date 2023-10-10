@@ -1,0 +1,36 @@
+.userPage_ {
+  display: flex;
+  background-color: #f5f5f5;
+  height: 60vw;
+}
+.userPage_page {
+  width: 25%;
+}
+.userPage_conter {
+  /* background-color: #ffffff; */
+  margin-top: 20px;
+  width: 65%;
+  padding: 20px;
+}
+.userPage_button button {
+  display: none;
+}
+.comment,
+.mypage,
+.order,
+.promotion,
+.voucher {
+  display: none;
+}
+.danhgia,
+.hoatdong,
+.khuyenmai,
+.vi {
+  display: none;
+}
+.hoso,
+.bank,
+.from,
+.resetpassword {
+  display: none;
+}

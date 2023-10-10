@@ -1,0 +1,436 @@
+.login_ {
+    background-color: rgb(238, 77, 45);
+    min-height: 800px;
+    font-size: 17px;
+}
+.login_header {
+    width: 100%;
+    height: 84px;
+    background: #ffffff;
+    position: relative;
+    box-shadow: 0 6px 6px rgb(0 0 0 / 6%);
+}
+.login_header_img {
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.login_header_text {
+    position: absolute;
+    top: 26px;
+    left: 300px;
+    font-size: 1.5rem;
+    font-family: Helvetica Neue, Helvetica, Arial, Helvetica, sans-serif;
+    font-weight: 520;
+}
+.login_header_help {
+    position: absolute;
+    top: 33px;
+    right: 100px;
+    text-decoration: none;
+    color: #ee4d2d;
+    font-size: 0.875rem;
+    cursor: pointer;
+    font-family: Helvetica Neue, Helvetica, Arial, Helvetica, sans-serif;
+}
+.login_conter {
+    width: 80%;
+    margin: 0 auto;
+    height: 600px;
+    background-image: url(https://cf.shopee.vn/file/5569eb9dc7e09e2dbed5315b8f2ea8ba);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* ----------------------->>>>>  LOGIN-MODAL   <<<<<<------------------- */
+.login_conter_modal {
+    min-height: 31.5rem;
+    width: 26.5rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    border-radius: 5px;
+    font-family: Helvetica Neue, Helvetica, Arial, Helvetica, sans-serif;
+}
+.login_conter_modal_QR {
+    position: absolute;
+    top: 15px;
+    right: 22%;
+    border: 2px solid #ffbf00;
+    padding: 6px 14px;
+    width: 120px;
+    font-family: Helvetica Neue, Helvetica, Arial, Helvetica, sans-serif;
+    color: #ffbf00;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #fefaec;
+}
+.login_conter_modal_QR ::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg) translate(-50%);
+    position: absolute;
+    top: 26px;
+    right: -12px;
+    border-top: 2px solid #ffbf00;
+    border-right: 2px solid #ffbf00;
+    box-sizing: border-box;
+    background-color: #fefaec;
+}
+.login_conter_modal_img_QR {
+    position: absolute;
+    top: 19px;
+    right: 8%;
+}
+.login_conter_modal_img_QR img {
+    width: 50px;
+    cursor: pointer;
+}
+.login_conter_modal_headline {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 22px;
+}
+.login_conter_modal_email {
+    position: absolute;
+    bottom: 365px;
+    width: 83%;
+    padding: 8px;
+    left: 35px;
+}
+.login_email_text {
+    position: absolute;
+    bottom: 338px;
+    left: 35px;
+    color: #ee4d2d;
+}
+.login_conter_modal_password {
+    position: absolute;
+    bottom: 290px;
+    width: 83%;
+    padding: 8px;
+    left: 35px;
+}
+.login_password_text {
+    position: absolute;
+    bottom: 260px;
+    left: 35px;
+    color: #ee4d2d;
+}
+.login_password_show1{
+    position: absolute;
+    bottom: 305px;
+    right: 11%;
+    width: 20px;
+}
+.login_password_show3{
+    position: absolute;
+    bottom: 305px;
+    right: 11%;
+    width: 20px;
+    display: none;
+}
+.login_conter_modal_button {
+    position: absolute;
+    bottom: 210px;
+    left: 35px;
+    width: 83%;
+    padding: 10px;
+    background-color: #ee4d2d;
+    color: #ffffff;
+    border-radius: 3px;
+    border: none;
+    opacity: 0.7;
+}
+.login_conter_modal_button:focus{
+    border: 2px solid black;
+   opacity: 1;
+
+}
+.login_conter_modal_a {
+    position: absolute;
+    bottom: 180px;
+    left: 38px;
+    font-size: 14px;
+    width: 100%;
+}
+.login_conter_modal_a a {
+    text-decoration: none;
+    color: #05a;
+}
+.login_conter_modal_a2 {
+    margin-left: 30%;
+}
+.login_or {
+    position: absolute;
+    bottom: 150px;
+    left: 175px;
+    opacity: 0.6;
+    font-size: 15px;
+}
+.login_conter_modal_buttonGrup {
+    position: absolute;
+    bottom: 90px;
+    left: 8%;
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+}
+.login_conter_modal_buttonGrup img {
+    width: 20px;
+    margin: 0 5px;
+    position: relative;
+    top: 0px;
+}
+.login_conter_modal_buttonGrup button {
+    justify-content: center;
+    padding: 10px 5px;
+    border: 1px solid rgb(242, 233, 233);
+    background-color: transparent;
+    font-size: 14px;
+    font-family: Helvetica, Helvetica, Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-flex;
+    width: 110px;
+}
+.login_conter_modal_footer {
+    position: absolute;
+    bottom: 30px;
+    left: 65px;
+}
+.login_conter_modal_footer span,
+.singin_modal_footer span {
+    opacity: 0.5;
+}
+.login_conter_modal_footer button,
+.singin_modal_footer button {
+    border: none;
+    background-color: transparent;
+    color: #ee4d2d;
+    font-family: Helvetica, Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.login_ofcanva_modal {
+    padding: 10px;
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 3px;
+    position: fixed;
+    top: 10px;
+    left: 30%;
+    border: 1px solid rgb(230, 219, 219);
+}
+.login_singin {
+    padding: 10px 0;
+    border-top: 1px solid rgb(230, 219, 219);
+}
+.ofcanva_modal_close_singin {
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    padding: 8px 16px;
+    border: none;
+    background-color: #ee4d2d;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.ofcanva_modal_singin {
+    position: absolute;
+    bottom: 40%px;
+    right: 10px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #05a;
+    font-size: 16px;
+    color: #f7f7f7;
+    border-radius: 3px;
+}
+/* GIAO DIỆN ĐIỆN THOẠI */
+.login_phone {
+    display: none;
+    width: 100%;
+    min-height: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.login_phone_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(248, 237, 237);
+}
+.login_phone a {
+    text-decoration: none;
+}
+.again {
+    color: #ee4d2d;
+    margin-right: 5px;
+}
+.login_phone_conter img {
+    position: absolute;
+    top: 10%;
+    left: 38%;
+}
+.login_phone_userName {
+    width: 90%;
+    position: absolute;
+    top: 26%;
+    left: 5%;
+    padding: 6px 10px 10px 35px;
+    background-image: url(http://cdn.onlinewebfonts.com/svg/img_213349.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    position: left;
+    line-height: 20px;
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid rgb(214, 202, 202);
+}
+.login_phone_userName:focus,
+.login_phone_password:focus {
+    outline: none;
+}
+.login_phone_userName_text{
+    color: #ee4d2d;
+    position: absolute;
+    left: 5%;
+    top: 31%;
+}
+.login_phone_password_text{
+    color: #ee4d2d;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+.login_phone_password {
+    width: 70%;
+    padding: 6px 10px 10px 35px;
+    background-image: url(data:image/png;base64,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);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    position: left;
+    line-height: 20px;
+    font-size: 17px;
+    border: none;
+}
+.login_phone_forgot {
+    font-size: 16px;
+    border-left: 1px solid rgb(214, 202, 202);
+    padding-left: 20px;
+}
+.login_phone_password_ {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    width: 90%;
+    border-bottom: 1px solid rgb(214, 202, 202);
+}
+
+.login_phone_login {
+    position: absolute;
+    top: 46%;
+    left: 5%;
+    width: 90%;
+    padding: 12px 16px;
+    border: none;
+    font-size: 16px;
+    color: #9e9696;
+    border-radius: 3px;
+}
+.login_phone_a {
+    position: absolute;
+    top: 54%;
+    left: 6%;
+    font-size: 13px;
+}
+
+.login_phone_a1 {
+    margin: 0 0 0 135px;
+}
+.login_phone_OR {
+    position: absolute;
+    top: 60.5%;
+    left: 44%;
+    font-size: 20px;
+    width: 50px;
+    padding: 0 10px;
+    background-color: #fff;
+    color: #9e9696;
+}
+.login_phone_hr {
+    position: absolute;
+    top: 60%;
+    width: 50%;
+    left: 25%;
+}
+.login_phone_button_grup button {
+    width: 90%;
+    margin: 10px;
+    padding: 6px 16px;
+    font-size: 16px;
+}
+.login_phone_button_grup img {
+    width: 25px;
+    position: absolute;
+    left: 5px;
+}
+.login_phone_button_face {
+    position: absolute;
+    top: 67%;
+}
+
+.login_phone_button_google {
+    position: absolute;
+    top: 75%;
+}
+.login_phone_button_apple {
+    position: absolute;
+    top: 83%;
+}
+/* ipad mini */
+@media screen and (max-width: 915px) {
+    .login_conter_modal {
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        width: 50%;
+    }
+    .login_conter {
+        width: 95%;
+        background-image: url(https://cf.shopee.vn/file/5569eb9dc7e09e2dbed5315b8f2ea8ba);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .login_conter_modal_a2 {
+        margin-left: 24%;
+    }
+    .login_conter_modal_QR {
+        right: 24%;
+    }
+}
+/* iphone 12 pro */
+@media screen and (max-width: 420px) {
+    .login_phone {
+        width: 100%;
+        display: block;
+    }
+    .login_ {
+        display: none;
+    }
+}

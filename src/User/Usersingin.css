@@ -1,0 +1,342 @@
+
+
+.singin_ {
+    width: 100%;
+    min-height: 800px;
+    background-color: rgb(238, 77, 45);
+}
+.singIn_ofcanva_modal {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid rgb(230, 219, 219);
+    border-radius: 3px;
+    position: fixed;
+    top: 10px;
+    left: 35%;
+    padding: 10px;
+}
+.singIn_ofcanva_modal p {
+    font-size: 18px;
+}
+.ofcanva_loginRouter {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #05a;
+    font-size: 16px;
+    color: #f7f7f7;
+    border-radius: 3px;
+}
+.ofcanva_modal_close {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #ee4d2d;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.singin_conter_modal {
+    min-height: 35rem;
+    width: 26.5rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    border-radius: 5px;
+    font-family: Helvetica Neue, Helvetica, Arial, Helvetica, sans-serif;
+}
+.singin_conter_modal_email {
+    position: absolute;
+    top: 70px;
+    left: 35px;
+    padding: 10px 8px;
+    width: 83%;
+}
+.singin_mail_text {
+    position: absolute;
+    top: 116px;
+    left: 35px;
+    color: #ee4d2d;
+    font-size: 15px;
+}
+.singin_conter_modal_password {
+    position: absolute;
+    top: 140px;
+    left: 35px;
+    padding: 10px 8px;
+    width: 83%;
+   
+}
+.singin_password_text {
+    position: absolute;
+    top: 190px;
+    left: 35px;
+    color: #ee4d2d;
+    font-size: 15px;
+}
+.singin_password_show1, .singin_password_show3{
+    position: absolute;
+    top: 150px;
+    right: 12%;
+    width: 20px;
+    cursor: pointer;
+}
+.singin_conter_modal_againpassword {
+    position: absolute;
+    top: 215px;
+    left: 35px;
+    padding: 10px 8px;
+    width: 83%;
+}
+.singin_again_text {
+    position: absolute;
+    top: 260px;
+    left: 35px;
+    color: #ee4d2d;
+    font-size: 15px;
+}
+.singin_password_show2, .singin_password_show4{
+    position: absolute;
+    top: 230px;
+    right: 12%;
+    width: 20px;
+    cursor: pointer;
+}
+.singin_password_show3, .singin_password_show4{
+    display: none;
+}
+.singin_conter_modal_next {
+    position: absolute;
+    bottom: 220px;
+    width: 83%;
+    left: 35px;
+    padding: 10px 8px;
+    font-size: 16px;
+    border: none;
+    background-color: #ee4d2d;
+    color: #ffffff;
+    border-radius: 3px;
+    opacity: .8;
+}
+.singin_conter_modal_next:focus{
+    border: 2px solid black;
+    opacity: 1;
+}
+.singin_conter_modal_buttonGrup {
+    position: absolute;
+    bottom: 130px;
+    left: 8%;
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+}
+.singin_conter_modal_buttonGrup button {
+    padding: 8px 18px;
+    width: 160px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid rgb(236, 220, 220);
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.singin_conter_modal_or {
+    position: absolute;
+    bottom: 185px;
+    left: 45%;
+    opacity: 0.7;
+}
+.singin_conter_modal_buttonGrup img {
+    width: 25px;
+    margin: 0 3px;
+    position: relative;
+    top: -2px;
+}
+.singin_conter_modal_text {
+    position: absolute;
+    bottom: 60px;
+    left: 20%;
+}
+.singin_conter_modal_text a {
+    text-decoration: none;
+    color: #ee4d2d;
+    margin: 0 3px;
+    font-size: 14px;
+    font-family: Helvetica Neue, Helvetica, Arial, Helvetica, sans-serif;
+}
+
+.singin_conter_modal p {
+    position: absolute;
+    bottom: 70px;
+    left: 15%;
+    font-size: 14px;
+    font-family: Helvetica Neue, Helvetica, Arial, Helvetica, sans-serif;
+}
+.singin_modal_footer {
+    position: absolute;
+    bottom: 20px;
+    left: 24%;
+}
+/* định dạng trên điện thoại */
+.singIn_phone {
+    display: none;
+    width: 100%;
+    min-height: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.singIn_phone a {
+    text-decoration: none;
+}
+.singin_phone_userName {
+    width: 90%;
+    position: absolute;
+    top: 11%;
+    left: 5%;
+    padding: 6px 10px 10px 35px;
+    background-image: url(http://cdn.onlinewebfonts.com/svg/img_213349.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    position: left;
+    line-height: 20px;
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid rgb(214, 202, 202);
+}
+.singin_phone_conter_name_text {
+    width: 90%;
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    color: #ee4d2d;
+}
+.singin_phone_password {
+    width: 90%;
+    padding: 6px 10px 10px 35px;
+    background-image: url(data:image/png;base64,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);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 19%;
+    left: 5%;
+    line-height: 20px;
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid rgb(214, 202, 202);
+}
+.singin_phone_conter_password_text {
+    position: absolute;
+    top: 24%;
+    left: 5%;
+    color: #ee4d2d;
+}
+.singin_phone_password1 {
+    width: 90%;
+    padding: 6px 10px 10px 35px;
+    background-image: url(data:image/png;base64,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);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    line-height: 20px;
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid rgb(214, 202, 202);
+}
+.singin_phone_conter_password1_text {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    color: #ee4d2d;
+}
+.singin_phone_userName:focus,
+.singin_phone_password:focus,
+.singin_phone_password1:focus {
+    outline: none;
+}
+.singin_phone_singin {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 90%;
+    padding: 12px 16px;
+    border: none;
+    font-size: 16px;
+    color: #9e9696;
+    border-radius: 3px;
+}
+.singin_phone_hr {
+    position: absolute;
+    top: 51%;
+    width: 50%;
+    left: 25%;
+}
+.singin_phone_OR {
+    position: absolute;
+    top: 51%;
+    left: 44%;
+    font-size: 20px;
+    width: 50px;
+    padding: 0 10px;
+    background-color: #fff;
+    color: #9e9696;
+}
+.singin_phone_button_grup img {
+    width: 25px;
+    position: absolute;
+    left: 5px;
+}
+.singin_phone_button_face {
+    position: absolute;
+    top: 58%;
+    width: 90%;
+    margin: 10px;
+    padding: 6px 16px;
+    font-size: 16px;
+}
+.singin_phone_button_google {
+    position: absolute;
+    top: 65%;
+    width: 90%;
+    margin: 10px;
+    padding: 6px 16px;
+    font-size: 16px;
+}
+.singin_phone_button_apple {
+    position: absolute;
+    top: 72%;
+    width: 90%;
+    margin: 10px;
+    padding: 6px 16px;
+    font-size: 16px;
+}
+/* ipad mini */
+@media screen and (max-width: 915px) {
+    .singin_conter_modal {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        width: 50%;
+    }
+}
+/* iphone */
+@media screen and (max-width: 420px) {
+    .singin_ {
+        display: none;
+    }
+    .singIn_phone {
+        display: block;
+    }
+}

@@ -1,0 +1,57 @@
+.table_nv {
+  width: 83%;
+  height: 100%;
+  background-color: #e9ecef;
+  float: right;
+  padding: 20px 30px;
+  margin-top: 60px;
+}
+
+.title_nv {
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.nv {
+  border-radius: 20px;
+  box-shadow: #7e8eb1 0px 1px 2px 0px;
+  background-color: white;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.update {
+  padding: 5px 20px;
+  border-radius: 10px;
+  outline: unset;
+  border: none;
+  cursor: pointer;
+  background-color: #0dcaf0;
+}
+
+.fromlist {
+  display: flex;
+  flex-direction: column;
+}
+.avatar {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.name,
+.avatar,
+.address,
+.sdt,
+.role {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px 10px;
+  background-color: white;
+  outline: unset;
+  border: 1px solid #ccc;
+}
+
+.Not {
+  color: red;
+}

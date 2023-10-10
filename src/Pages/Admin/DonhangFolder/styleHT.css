@@ -1,0 +1,14 @@
+.table_ht {
+  width: 83%;
+  height: 100vh;
+  background-color: #e9ecef;
+  float: right;
+  padding: 20px 30px;
+  margin-top: 60px;
+}
+
+.title_ht {
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
