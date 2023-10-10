@@ -4,7 +4,7 @@ Welcome to the Mobile Sales Website repository! This project represents a seamle
 
 **Live Site URL**: [Mobile Sales Website](https://www.dollarsforphone.com)
 
-![Mobile Sales Website](preview.png)
+![Mobile Sales Website](https://github.com/DevRex-0201/React-MobileSales/blob/main/public/Imgs/preview.png)
 
 ## Project Overview
 
@@ -29,7 +29,7 @@ To set up this project locally, follow these steps:
 
 ## Design Preview
 
-![Figma Design](figma.png)
+![Figma Design](https://github.com/DevRex-0201/React-MobileSales/blob/main/public/Imgs/Figma_ReactMobile.png)
 
 ## Contributions and Feedback
 
